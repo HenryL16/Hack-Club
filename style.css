@@ -1,23 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: monospace;
-    background-color:chartreuse;
-    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
-div {
-    background-color: darkolivegreen;
-    color: white;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: fit-content;
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
 }
 
-img {
-    border-radius: 10px;
-    margin: 20px;
+header h1 {
+    font-size: 2em;
+    color: #ff6347;
+}
+
+header p {
+    margin: 10px 0 20px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.jokes {
+    margin-top: 20px;
+}
+
+.joke {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-left: 4px solid #ff6347;
+}
+
+.joke h3 {
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+.joke p {
+    color: #666;
+    font-size: 1em;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+footer p {
+    margin-top: 10px;
 }
