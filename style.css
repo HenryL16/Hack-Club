@@ -1,5 +1,23 @@
 body {
-    font-family: sans-serif;
-    background-color: aquamarine;
+    font-family: monospace;
+    background-color:chartreuse;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: darkolivegreen;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: fit-content;
+}
+
+img {
+    border-radius: 10px;
+    margin: 20px;
 }
